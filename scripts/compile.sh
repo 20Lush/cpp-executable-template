@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 # Default directory to build into
 BUILD_DIRECTORY="$PWD/../build"

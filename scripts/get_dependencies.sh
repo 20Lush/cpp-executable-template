@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 # Put links to any project dependencies you need in here.
 # You should only be using release artifacts as dependency, we shouldn't be compiling other people's code../
