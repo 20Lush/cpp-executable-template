@@ -68,12 +68,6 @@ function(InstallSetup PROJECT_NAME)
     if(NOT CMAKE_BUILD_TYPE)
         set(CMAKE_BUILD_TYPE DEBUG)
     endif()
-
-    # Put some versioning info into our runtime environment
-    configure_file(
-        "${PROJECT_SOURCE_DIR}/include/version.hpp.in"
-        "${PROJECT_SOURCE_DIR}/include/version.hpp"
-    )
     
     # Now lets take care of the versioning and target cmake files!
     GenerateMetaData(${PROJECT_NAME})
