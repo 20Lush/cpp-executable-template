@@ -6,13 +6,15 @@ namespace lush::EXECUTABLE {
 
 	// Any forward declerations?
 
-	void print_args(int argc, char** argv) {
+	bool print_args(int argc, char** argv) {
 
 		std::cout << "args: ";
 		for (int idx = 0; idx < argc; idx++) {
 			std::cout << argv[idx] << " ";
 		}
 		std::cout << std::endl;
+
+		return true;
 	}
 
 }  // namespace lush::EXECUTABLE
